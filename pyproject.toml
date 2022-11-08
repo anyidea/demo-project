@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "demo-project"
+name = "demo-projectv112"
 version = "0.1.0"
 homepage = "https://github.com/anyidea/demo-project"
 description = "Skeleton project created by Cookiecutter PyPackage."
