@@ -1,14 +1,14 @@
 """Main module."""
 
 
-def add(a: int, b: int) -> int:
+def custom_add(a: int, b: int) -> int:
     """
     两个数求和
     """
     return a + b
 
 
-def reduce(a: int, b: int) -> int:
+def custom_reduce(a: int, b: int) -> int:
     """
     两个数相减
     """

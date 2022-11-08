@@ -2,6 +2,7 @@
 """Tests for `demo_project` package."""
 
 import pytest
+from demo_project.main import custom_add, custom_reduce
 
 
 @pytest.fixture
@@ -19,3 +20,15 @@ def test_content(response):
     # from bs4 import BeautifulSoup
     # assert 'GitHub' in BeautifulSoup(response.content).title.string
     del response
+
+
+def test_custom_add():
+    a = 1
+    b = 2
+    assert 3 == custom_add(a, b)
+
+
+def test_custom_reduce():
+    a = 1
+    b = 2
+    assert 1 == custom_reduce(b, a)
