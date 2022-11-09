@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "demo-projectv112"
-version = "0.1.0"
+version = "0.2.0"
 homepage = "https://github.com/anyidea/demo-project"
 description = "Skeleton project created by Cookiecutter PyPackage."
 authors = ["Aiden Lu <allaher@icloud.com>"]
