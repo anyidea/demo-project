@@ -1,9 +1,9 @@
 # demo-project
 
 
-[![pypi](https://img.shields.io/pypi/v/demo-project.svg)](https://pypi.org/project/demo-project/)
 [![python](https://img.shields.io/pypi/pyversions/demo-project.svg)](https://pypi.org/project/demo-project/)
-[![Build Status](https://github.com/anyidea/demo-project/actions/workflows/dev.yml/badge.svg)](https://github.com/anyidea/demo-project/actions/workflows/dev.yml)
+[![pypi](https://img.shields.io/pypi/v/demo-project.svg)](https://pypi.org/project/demo-project/)
+[![Build Status](https://github.com/anyidea/demo-project/actions/workflows/ci.yml/badge.svg)](https://github.com/anyidea/demo-project/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/anyidea/demo-project/branch/main/graphs/badge.svg)](https://codecov.io/github/anyidea/demo-project)
 
 
