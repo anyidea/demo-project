@@ -15,13 +15,46 @@ theme:
   language: en
   #logo: assets/logo.png
   palette:
-    scheme: preference
-    primary: indigo
-    accent: indigo
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   features:
     - navigation.indexes
     - navigation.instant
     - navigation.tabs.sticky
+plugins:
+  - include-markdown
+  - search:
+    lang: en
+  - mkdocstrings:
+# Customization
+extra:
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: fontawesome/brands/twitter
+      # replace with your own tweet link below
+      link: https://github.com/waynerv/cookiecutter-pypackage
+      name: Tweet
+    - icon: fontawesome/brands/facebook
+      # replace with your own facebook link below
+      link: https://github.com/waynerv/cookiecutter-pypackage
+      name: Facebook
+    - icon: fontawesome/brands/github
+      link: https://github.com/anyidea/demo-project
+      name: Github
+    - icon: material/email
+      link: "mailto:allaher@icloud.com"
 markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
@@ -45,31 +78,3 @@ markdown_extensions:
       permalink: true
       slugify: !!python/name:pymdownx.slugs.uslugify
   - meta
-plugins:
-  - include-markdown
-  - search:
-      lang: en
-  - mkdocstrings:
-      watch:
-        - demo-project
-extra:
-  social:
-    - icon: fontawesome/brands/twitter
-      # replace with your own tweet link below
-      link: https://github.com/waynerv/cookiecutter-pypackage
-      name: Tweet
-    - icon: fontawesome/brands/facebook
-      # replace with your own facebook link below
-      link: https://github.com/waynerv/cookiecutter-pypackage
-      name: Facebook
-    - icon: fontawesome/brands/github
-      link: https://github.com/anyidea/demo-project
-      name: Github
-    - icon: material/email
-      link: "mailto:allaher@icloud.com"
-  # to enable disqus, uncomment the following and put your disqus id below
-  # disqus: disqus_id
-# uncomment the following and put your google tracking id below to enable GA
-#google_analytics:
-  #- UA-xxx
-  #- auto
