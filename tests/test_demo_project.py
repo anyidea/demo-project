@@ -25,10 +25,12 @@ def test_content(response):
 def test_custom_add():
     a = 1
     b = 2
+
     assert 3 == custom_add(a, b)
 
 
 def test_custom_reduce():
     a = 1
     b = 2
+
     assert 1 == custom_reduce(b, a)
