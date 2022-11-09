@@ -34,7 +34,7 @@ virtualenv = "^20.2.2"
 pip = "^20.3.1"
 twine = "^3.3.0"
 toml = "^0.10.2"
-bump2version = "^1.0.1"
+commitizen = "^2.37.0"
 
 [tool.poetry.group.test]
 optional = true
@@ -89,6 +89,14 @@ line_length = 88
 skip_gitignore = true
 # you can skip files as below
 #skip_glob = docs/conf.py
+
+[tool.commitizen]
+version = "0.2.0"
+tag_format = "v$major.$minor.$patch$prerelease"
+version_files = [
+"pyproject.toml:version",
+"demo_project/__init__.py"
+]
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
