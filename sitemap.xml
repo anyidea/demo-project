@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://anyidea.github.io/demo-project/</loc>
-         <lastmod>2022-11-09</lastmod>
+         <lastmod>2022-11-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://anyidea.github.io/demo-project/api/</loc>
-         <lastmod>2022-11-09</lastmod>
+         <lastmod>2022-11-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://anyidea.github.io/demo-project/changelog/</loc>
-         <lastmod>2022-11-09</lastmod>
+         <lastmod>2022-11-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://anyidea.github.io/demo-project/contributing/</loc>
-         <lastmod>2022-11-09</lastmod>
+         <lastmod>2022-11-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://anyidea.github.io/demo-project/installation/</loc>
-         <lastmod>2022-11-09</lastmod>
+         <lastmod>2022-11-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://anyidea.github.io/demo-project/usage/</loc>
-         <lastmod>2022-11-09</lastmod>
+         <lastmod>2022-11-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
