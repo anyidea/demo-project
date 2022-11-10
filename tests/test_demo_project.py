@@ -2,7 +2,7 @@
 """Tests for `demo_project` package."""
 
 import pytest
-from demo_project.main import custom_add, custom_reduce
+from demo_project.calculations import add, subtract, multiply, divide
 
 
 @pytest.fixture
@@ -22,15 +22,34 @@ def test_content(response):
     del response
 
 
-def test_custom_add():
+def test_add():
     a = 1
     b = 2
+    assert 3 == add(a, b)
 
-    assert 3 == custom_add(a, b)
+
+def test_subtract():
+    a = 1.0
+    b = 2.0
+    assert -1.0 == subtract(a, b)
 
 
-def test_custom_reduce():
-    a = 1
+def test_multiply():
+    a = 2.0
+    b = 5.0
+    assert 10.0 == multiply(a, b)
+
+
+def test_divide():
+    a = 3
     b = 2
+    assert 1.5 == divide(a, b)
 
-    assert 1 == custom_reduce(b, a)
+
+def test_divide_zero():
+    a = 3
+    b = 0
+    try:
+        divide(a, b)
+    except Exception as e:
+        assert isinstance(e, ZeroDivisionError)

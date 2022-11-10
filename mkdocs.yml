@@ -1,8 +1,7 @@
-site_name: demo-project
+site_name: Demo Project
 site_url: https://anyidea.github.io/demo-project
 repo_url: https://github.com/anyidea/demo-project
 repo_name: anyidea/demo-project
-#strict: true
 nav:
   - Home: index.md
   - Installation: installation.md
@@ -15,7 +14,7 @@ theme:
   language: en
   #logo: assets/logo.png
   palette:
-    - scheme: default
+    - scheme: preference
       primary: indigo
       accent: indigo
       toggle:
@@ -34,8 +33,8 @@ theme:
 plugins:
   - include-markdown
   - search:
-    lang: en
-  - mkdocstrings:
+      lang: en
+  - mkdocstrings
 # Customization
 extra:
   analytics:
@@ -76,5 +75,4 @@ markdown_extensions:
   - toc:
       baselevel: 2
       permalink: true
-      slugify: !!python/name:pymdownx.slugs.uslugify
   - meta
